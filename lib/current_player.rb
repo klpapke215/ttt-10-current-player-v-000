@@ -43,7 +43,6 @@ def play(board)
   end
 end
 
-board = (0, 1, 2, 3, 4, 5, 6, 7, 8)
 def turn_count(board)
   turn_count.each do|counter|
       counter = 0
