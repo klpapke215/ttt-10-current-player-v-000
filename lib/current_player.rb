@@ -46,6 +46,7 @@ end
 def turn_count(board)
    counter = 0
    board.each do |space|
+     binding.pry 
    counter += 1
   end
   counter
