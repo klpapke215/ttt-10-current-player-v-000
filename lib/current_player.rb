@@ -44,8 +44,8 @@ def play(board)
 end
 
 def turn_count(0, 1, 2, 3, 4, 5, 6, 7, 8)
-  counter = 0
     turn_count.each do|counter|
+      counter = 0
       if position_taken = true
         counter = counter + 1
       end
