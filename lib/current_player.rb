@@ -53,5 +53,3 @@ def turn_count(display_board)
     end
   end
 end
-
-
