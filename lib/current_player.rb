@@ -55,7 +55,7 @@ end
 def current_player(board)
   if board.even?
     "X"
-  else 
+  else
     "O"
 end
 end
