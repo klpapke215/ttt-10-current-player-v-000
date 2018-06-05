@@ -44,12 +44,11 @@ def play(board)
 end
 
 def turn_count(board)
-  turn_count.each do|counter|
-      counter = 0
-       if position_taken == true
-         counter = counter + 1
-      end
-  end
+   counter = 0
+   board.each do |board|
+   counter += 1
+ end
+  counter
 end
 
 def current_player(board)
