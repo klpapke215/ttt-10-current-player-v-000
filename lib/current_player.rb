@@ -48,7 +48,7 @@ def turn_count(display_board)
   counter = 0
     turn_count.each do|counter|
       if position_taken = true
-        counter += 1
+        counter = counter + 1
       end
     end
   end
