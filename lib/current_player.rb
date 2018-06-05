@@ -43,7 +43,7 @@ def play(board)
   end
 end
 
-def turn_count.between?(0,8)
+def turn_count(display_board)
     turn_count.each do|counter|
       counter = 0
       if position_taken = true
